@@ -8,7 +8,7 @@ namespace Teoria_y_ejercicios_T3
         {
             //Console.WriteLine("Hello World!");
             ////////////Ejercicio 1/////////
-            //contador de cuantas repeticiones se esta hacendo en el bucle
+            //contador con WHILE
             //Console.Write("¿Cuantas veces repetimos?:");
             //int i = int.Parse(Console.ReadLine());
             //int x = 0;
@@ -18,8 +18,19 @@ namespace Teoria_y_ejercicios_T3
             //    x ++;
             //}
 
-            ////////////Ejercicio 2/////////
-            //Tabla de multiplicar
+            //Contador con DO WHILE
+            //Console.Write("¿Cuantas veces repetimos?:");
+            //int i = int.Parse(Console.ReadLine());
+            //int x = 0;
+            //do
+            //{
+            //    Console.WriteLine("vamos por ella repeticion numero: " + i + " de " + x);
+            //} while (i != x++);
+
+
+
+            ///////////////Ejercicio 2/////////////
+            //abla de multiplicar
             //Console.Write("¿Que tabla quieres?: ");
             //int x = int.Parse(Console.ReadLine());
             //Console.Write("Cuantas veces?: ");
