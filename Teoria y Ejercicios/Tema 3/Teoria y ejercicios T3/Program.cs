@@ -148,7 +148,7 @@ namespace Teoria_y_ejercicios_T3
 
 
 
-            ///////////////Ejercicio 3/////////////
+            ///////////////Ejercicio 4/////////////
             ////Interfaz con Bucles
             //int i = 0;
             //do
@@ -179,7 +179,18 @@ namespace Teoria_y_ejercicios_T3
             //    }
             //} while (i != 4); ;
 
-            
+            ///////////////Ejercicio /////////////
+            ////Pregunta 10 numeros y muestra la suma de los 10
+            int res = 0;
+            for (int i = 0; i != 10; i++)
+            {
+                Console.Write("¿Numero a sumar?: ");
+                int sum = int.Parse(Console.ReadLine());
+               
+                    res = res + sum;
+
+            }
+            Console.WriteLine("El resultado es: " + res);
         }
     }
 }
