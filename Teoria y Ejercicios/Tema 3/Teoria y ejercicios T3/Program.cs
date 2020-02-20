@@ -157,7 +157,7 @@ namespace Teoria_y_ejercicios_T3
                 Console.WriteLine("1. Refran");
                 Console.WriteLine("2. Chiste");
                 Console.WriteLine("3. Insulto");
-                Console.WriteLine("4. Refran");
+                Console.WriteLine("4. Salir");
                 i = int.Parse(Console.ReadLine());
                 switch (i)
                 {
