@@ -181,14 +181,16 @@ namespace Teoria_y_ejercicios_T3
 
             ///////////////Ejercicio /////////////
             ////Pregunta 10 numeros y muestra la suma de los 10 numeros introducidos
+            Console.Write("Cauntas veces quieres repetir el codigo?");
+            int repe = int.Parse(Console.ReadLine());
             int res = 0;
-            for (int i = 0; i != 10; i++)
+
+            for (int i = 0; i != repe; i++)
             {
                 Console.Write("¿Numero a sumar?: ");
                 int sum = int.Parse(Console.ReadLine());
-               
+             
                     res = res + sum;
-
             }
             Console.WriteLine("El resultado es: " + res);
         }
