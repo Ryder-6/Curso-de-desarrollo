@@ -149,35 +149,35 @@ namespace Teoria_y_ejercicios_T3
 
 
             ///////////////Ejercicio 3/////////////
-            //Interfaz con Bucles
-            int i = 0;
-            do
-            {
-                Console.WriteLine("Opcion:");
-                Console.WriteLine("1. Refran");
-                Console.WriteLine("2. Chiste");
-                Console.WriteLine("3. Insulto");
-                Console.WriteLine("4. Salir");
-                i = int.Parse(Console.ReadLine());
-                switch (i)
-                {
-                    case 1:
-                        Console.WriteLine("Si la vida te da limones");
-                        break;                    
-                    case 2:
-                        Console.WriteLine("Van dos y se cae ");
-                        break;                    
-                    case 3:
-                        Console.WriteLine("Viejo puto");
-                        break;                   
-                    case 4:
-                        Console.WriteLine("Hasta luego Lucas");
-                        break;
-                    default:
-                        Console.WriteLine("Invalido");
-                        break;
-                }
-            } while (i != 4); ;
+            ////Interfaz con Bucles
+            //int i = 0;
+            //do
+            //{
+            //    Console.WriteLine("Opcion:");
+            //    Console.WriteLine("1. Refran");
+            //    Console.WriteLine("2. Chiste");
+            //    Console.WriteLine("3. Insulto");
+            //    Console.WriteLine("4. Salir");
+            //    i = int.Parse(Console.ReadLine());
+            //    switch (i)
+            //    {
+            //        case 1:
+            //            Console.WriteLine("Si la vida te da limones");
+            //            break;                    
+            //        case 2:
+            //            Console.WriteLine("Van dos y se cae ");
+            //            break;                    
+            //        case 3:
+            //            Console.WriteLine("Viejo puto");
+            //            break;                   
+            //        case 4:
+            //            Console.WriteLine("Hasta luego Lucas");
+            //            break;
+            //        default:
+            //            Console.WriteLine("Invalido");
+            //            break;
+            //    }
+            //} while (i != 4); ;
 
             
         }
