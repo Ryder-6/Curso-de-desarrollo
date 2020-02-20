@@ -179,7 +179,8 @@ namespace Teoria_y_ejercicios_T3
             //    }
             //} while (i != 4); ;
 
-            ///////////////Ejercicio /////////////
+
+            ///////////////Ejercicio 5/////////////
             ////Pregunta repeticiones de la suma y despues pregunta tantos numeros como repeticiones y los suma todos
             //Console.Write("Cauntas veces quieres repetir el codigo?");
             //int repe = int.Parse(Console.ReadLine());
@@ -189,10 +190,72 @@ namespace Teoria_y_ejercicios_T3
             //{
             //    Console.Write("¿Numero a sumar?: ");
             //    int sum = int.Parse(Console.ReadLine());
-             
+
             //        res = res + sum;
             //}
             //Console.WriteLine("El resultado es: " + res);
+
+
+
+            ///////////////Ejercicio 6/////////////
+            //ejercicio de 
+            //Console.Write("¿Cuantos espacios necesitas?: ");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] sum = new int[n];       //Creo el ARRAY tipo INT
+            //int res = 0; 
+            //Console.WriteLine("Introduce tus numeros: ");
+            //for (int i = 0; i != n; i++) //Bucle para introducir los datos dentro del ARRAY
+            //{
+            //    int x = int.Parse(Console.ReadLine()); //Variable que camabia en cada reinicio de bucle al introducir los datos
+            //    sum[i] = x;
+            //}
+
+            //for (int i = 0; i != n; i++) //Bucle que hace la suma. con cada reinicio se suma 1 al contador, el contador es el que azanza dentro de las casillas del Array
+            //{           
+            //    res += sum[i];
+            //}
+            //Console.WriteLine("El resultado es: " + res);
+
+            ///////////////Ejercicio 7/////////////
+            //Copiar datos de un array a otro
+            //Console.Write("¿Cuantos espacios necesitas?: ");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] Arr1 = new int[n];
+            //int[] Arr2 = new int[n];
+            //Console.WriteLine("Introduce tus numeros: ");
+            //for (int i = 0; i != n; i++) //
+            //{
+            //    int x = int.Parse(Console.ReadLine()); //
+            //    Arr1[i] = x;
+            //}
+
+            //for (int i = 0; i != n; i++) //
+            //{
+            //    int res = 0;
+            //    Arr2[i] = res + Arr1[i];
+            //Console.WriteLine("El resultado es: " + Arr2[i]);
+            //}            
+
+            ///////////////Ejercicio 8/////////////
+            //Pasar de un array a otro y ordenarlos de mayor a menor
+            Console.Write("¿Cuantos espacios necesitas?: ");
+            int n = int.Parse(Console.ReadLine());
+            int[] Arr1 = new int[n];
+            int[] Arr2 = new int[n];
+            Console.WriteLine("Introduce tus numeros: ");
+            for (int i = 0; i != n; i++) //
+            {
+                int x = int.Parse(Console.ReadLine()); //
+                Arr1[i] = x;
+            }
+
+            for (int i = 0; i != n; i++) //
+            {
+                int sav = 0;
+                Arr2[i] = sav + Arr1[i];
+                Console.WriteLine("El resultado es: " + Arr2[i]);
+            }
+
         }
     }
 }
