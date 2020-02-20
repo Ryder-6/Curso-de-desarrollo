@@ -180,7 +180,7 @@ namespace Teoria_y_ejercicios_T3
             //} while (i != 4); ;
 
             ///////////////Ejercicio /////////////
-            ////Pregunta 10 numeros y muestra la suma de los 10
+            ////Pregunta 10 numeros y muestra la suma de los 10 numeros introducidos
             int res = 0;
             for (int i = 0; i != 10; i++)
             {
