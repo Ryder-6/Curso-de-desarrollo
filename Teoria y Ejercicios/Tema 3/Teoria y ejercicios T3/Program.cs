@@ -162,10 +162,10 @@ namespace Teoria_y_ejercicios_T3
                 switch (i)
                 {
                     case 1:
-                        Console.WriteLine(" si la vida te da limones");
+                        Console.WriteLine("Si la vida te da limones");
                         break;                    
                     case 2:
-                        Console.WriteLine("van dos y se cae ");
+                        Console.WriteLine("Van dos y se cae ");
                         break;                    
                     case 3:
                         Console.WriteLine("Viejo puto");
@@ -174,11 +174,12 @@ namespace Teoria_y_ejercicios_T3
                         Console.WriteLine("Hasta luego Lucas");
                         break;
                     default:
-                        Console.WriteLine("numero invalido");
+                        Console.WriteLine("Invalido");
                         break;
                 }
             } while (i != 4); ;
 
+            
         }
     }
 }
