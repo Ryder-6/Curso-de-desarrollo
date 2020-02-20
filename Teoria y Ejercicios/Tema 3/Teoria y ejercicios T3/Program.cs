@@ -96,7 +96,7 @@ namespace Teoria_y_ejercicios_T3
 
 
             ///////////////Ejercicio 2/////////////
-            //Sumas consecutivas en orden
+            //Sumas consecutivas en orden +1 +2 +3 +4 +5 +6...
             Console.Write("¿Hasta que numero quieres que sume?: ");
             int x = int.Parse(Console.ReadLine());
             int res = 0;
