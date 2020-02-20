@@ -66,36 +66,45 @@ namespace Teoria_y_ejercicios_T3
 
             ///////////////////////////DIA 4///////////////////////
             ///////////////Ejercicio 1/////////////
-            //Contador
-            Console.Write("¿Hasta que numero quieres que cuente?: ");
+            ////Contador
+            //Console.Write("¿Hasta que numero quieres que cuente?: ");
+            //int x = int.Parse(Console.ReadLine());
+            ////Primer bucle;     WHILE
+            //Console.WriteLine("Bucle WHILE: ");
+            //int i = 0;
+            //while (i++ != x)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            ////Segundo bucle;   DO WHILE
+            //Console.WriteLine(" ");
+            //i = 0;
+            //Console.WriteLine("Bucle Do While: "); 
+            //do
+            //{
+            //    Console.WriteLine(i);
+            //} while (i++ != x);
+
+            ////Tercer bucle;      FOR
+            //Console.WriteLine(" ");
+            //Console.WriteLine("Bucle FOR: ");
+            //for (i = 0; i <= x; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+
+            ///////////////Ejercicio 2/////////////
+            //Sumas consecutivas en orden
+            Console.Write("¿Hasta que numero quieres que sume?: ");
             int x = int.Parse(Console.ReadLine());
-            //Primer bucle;     WHILE
-            Console.WriteLine("Bucle WHILE: ");
-            int i = 0;
-            while (i++ != x)
+            int res = 0;
+            for (int i = 0; i <= x; i++)
             {
-                Console.WriteLine(i);
+                res = i + res;
             }
-
-            //Segundo bucle;   DO WHILE
-            Console.WriteLine(" ");
-            i = 0;
-            Console.WriteLine("Bucle Do While: "); 
-            do
-            {
-                Console.WriteLine(i);
-            } while (i++ != x);
-
-            //Tercer bucle;      FOR
-            Console.WriteLine(" ");
-            Console.WriteLine("Bucle FOR: ");
-            for (i = 0; i <= x; i++)
-            {
-                Console.WriteLine(i);
-            }
-
-
-
+            Console.WriteLine("Resultado" + res);
         }
     }
 }
