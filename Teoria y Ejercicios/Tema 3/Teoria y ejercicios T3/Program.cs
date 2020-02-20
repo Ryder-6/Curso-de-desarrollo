@@ -181,18 +181,18 @@ namespace Teoria_y_ejercicios_T3
 
             ///////////////Ejercicio /////////////
             ////Pregunta repeticiones de la suma y despues pregunta tantos numeros como repeticiones y los suma todos
-            Console.Write("Cauntas veces quieres repetir el codigo?");
-            int repe = int.Parse(Console.ReadLine());
-            int res = 0;
+            //Console.Write("Cauntas veces quieres repetir el codigo?");
+            //int repe = int.Parse(Console.ReadLine());
+            //int res = 0;
 
-            for (int i = 0; i != repe; i++)
-            {
-                Console.Write("¿Numero a sumar?: ");
-                int sum = int.Parse(Console.ReadLine());
+            //for (int i = 0; i != repe; i++)
+            //{
+            //    Console.Write("¿Numero a sumar?: ");
+            //    int sum = int.Parse(Console.ReadLine());
              
-                    res = res + sum;
-            }
-            Console.WriteLine("El resultado es: " + res);
+            //        res = res + sum;
+            //}
+            //Console.WriteLine("El resultado es: " + res);
         }
     }
 }
