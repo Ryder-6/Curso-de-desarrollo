@@ -54,15 +54,43 @@ namespace Teoria_y_ejercicios_T3
 
             ///////////////Ejercicio 3/////////////
             //Tabla de multiplicar con FOR
-            Console.Write("¿Que tabla quieres?: ");
+            //Console.Write("¿Que tabla quieres?: ");
+            //int x = int.Parse(Console.ReadLine());
+            //Console.Write("Cuantas veces?: ");
+            //int y = int.Parse(Console.ReadLine());
+            //for (int i = 0; i <= y; i++)
+            //{
+            //    Console.WriteLine(x * i);
+            //}
+
+
+            ///////////////////////////DIA 4///////////////////////
+            ///////////////Ejercicio 1/////////////
+            //Contador
+            Console.Write("¿Hasta que numero quieres que cuente?: ");
             int x = int.Parse(Console.ReadLine());
-            Console.Write("Cuantas veces?: ");
-            int y = int.Parse(Console.ReadLine());
-            for (int i = 0; i <= y; i++)
+            //Primer bucle;     WHILE
+            Console.WriteLine("Bucle WHILE: ");
+            int i = 0;
+            while (i++!=x)
             {
-                Console.WriteLine(x * i);
+                Console.WriteLine(i);
             }
 
+            //Segundo bucle;   DO WHILE
+            i = 0;
+            Console.WriteLine("Bucle Do While: ");
+            do
+            {
+                Console.WriteLine(i);
+            } while (i++!=x);
+
+            //Tercer bucle;      FOR
+            Console.WriteLine("Bucle FOR: ");
+            for (i = 0; i <= x; i++)
+            {
+                Console.WriteLine(i);
+            }
 
 
 
