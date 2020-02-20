@@ -72,7 +72,7 @@ namespace Teoria_y_ejercicios_T3
             //Primer bucle;     WHILE
             Console.WriteLine("Bucle WHILE: ");
             int i = 0;
-            while (i++!=x)
+            while (i++ != x)
             {
                 Console.WriteLine(i);
             }
@@ -84,7 +84,7 @@ namespace Teoria_y_ejercicios_T3
             do
             {
                 Console.WriteLine(i);
-            } while (i++!=x);
+            } while (i++ != x);
 
             //Tercer bucle;      FOR
             Console.WriteLine(" ");
