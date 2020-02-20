@@ -180,7 +180,7 @@ namespace Teoria_y_ejercicios_T3
             //} while (i != 4); ;
 
             ///////////////Ejercicio /////////////
-            ////Pregunta repeticiones de la suma y despues pregunta tantos numeros como repeticiones y los suma todos
+            ////Pregunta 10 numeros y muestra la suma de los 10 numeros introducidos
             Console.Write("Cauntas veces quieres repetir el codigo?");
             int repe = int.Parse(Console.ReadLine());
             int res = 0;
