@@ -78,14 +78,16 @@ namespace Teoria_y_ejercicios_T3
             }
 
             //Segundo bucle;   DO WHILE
+            Console.WriteLine(" ");
             i = 0;
-            Console.WriteLine("Bucle Do While: ");
+            Console.WriteLine("Bucle Do While: "); 
             do
             {
                 Console.WriteLine(i);
             } while (i++!=x);
 
             //Tercer bucle;      FOR
+            Console.WriteLine(" ");
             Console.WriteLine("Bucle FOR: ");
             for (i = 0; i <= x; i++)
             {
