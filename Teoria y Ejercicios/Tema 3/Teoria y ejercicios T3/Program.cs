@@ -97,14 +97,88 @@ namespace Teoria_y_ejercicios_T3
 
             ///////////////Ejercicio 2/////////////
             //Sumas consecutivas en orden +1 +2 +3 +4 +5 +6...
-            Console.Write("¿Hasta que numero quieres que sume?: ");
-            int x = int.Parse(Console.ReadLine());
-            int res = 0;
-            for (int i = 0; i <= x; i++)
+            //Console.Write("¿Hasta que numero quieres que sume?: ");
+            //int x = int.Parse(Console.ReadLine());
+            //int res = 0;
+            //for (int i = 0; i <= x; i++)
+            //{
+            //    res = i + res;
+            //} 
+            //Console.WriteLine("Resultado" + res);
+
+
+
+            ///////////////Ejercicio 3/////////////
+            ////Contador invertido
+            /*Se crea una variable con el mismo valor que el numero de inicio,
+             *con cada bucle a (y) se le resta 1 hasta que el contador (i) llegue al numero 
+             * introducido por el usuario*/
+
+            //Console.Write("¿Hasta que numero quieres que cuente?: ");
+            //int x = int.Parse(Console.ReadLine());
+            ////Primer bucle;     WHILE
+            //Console.WriteLine("Bucle WHILE: ");
+            //int y = x;
+            //int i = 0;
+            //while (i != x )
+            //{                
+            //    Console.WriteLine(y);
+            //    y--;
+            //    i++;
+            //}
+
+            ////Segundo bucle;   DO WHILE
+            //Console.WriteLine(" ");
+            //y = x;
+            //Console.WriteLine("Bucle Do While: ");
+            //i = 0;
+            //do
+            //{
+            //    Console.WriteLine(y);
+            //    y--;
+            //} while (i++ != x);
+
+            ////Tercer bucle;      FOR
+            //Console.WriteLine(" ");
+            //Console.WriteLine("Bucle FOR: ");
+            //for (y = i; y >= 0; y--)
+            //{
+            //    Console.WriteLine(y);
+            //}
+
+
+
+            ///////////////Ejercicio 3/////////////
+            //Interfaz con Bucles
+            int i = 0;
+            do
             {
-                res = i + res;
-            }
-            Console.WriteLine("Resultado" + res);
+                Console.WriteLine("Opcion:");
+                Console.WriteLine("1. Refran");
+                Console.WriteLine("2. Chiste");
+                Console.WriteLine("3. Insulto");
+                Console.WriteLine("4. Refran");
+                i = int.Parse(Console.ReadLine());
+                switch (i)
+                {
+                    case 1:
+                        Console.WriteLine(" si la vida te da limones");
+                        break;                    
+                    case 2:
+                        Console.WriteLine("van dos y se cae ");
+                        break;                    
+                    case 3:
+                        Console.WriteLine("Viejo puto");
+                        break;                   
+                    case 4:
+                        Console.WriteLine("Hasta luego Lucas");
+                        break;
+                    default:
+                        Console.WriteLine("numero invalido");
+                        break;
+                }
+            } while (i != 4); ;
+
         }
     }
 }
