@@ -491,23 +491,23 @@ namespace Teoria_y_ejercicios_T3
             //    Console.WriteLine(number);
             //}
 
-            List<int> ejemplo = new List<int>();
-            ejemplo.Add(1);
-            ejemplo.Add(2);
-            ejemplo.Add(3);
-            ejemplo.Add(4);
-            foreach (int number in ejemplo)
-            {
-                if (number % 2 == 0)
-                {
-                    Console.WriteLine("par");
+            //List<int> ejemplo = new List<int>();
+            //ejemplo.Add(1);
+            //ejemplo.Add(2);
+            //ejemplo.Add(3);
+            //ejemplo.Add(4);
+            //foreach (int number in ejemplo)
+            //{
+            //    if (number % 2 == 0)
+            //    {
+            //        Console.WriteLine("par");
 
-                }
-                else
-                {
-                    Console.WriteLine("impar");
-                }
-            }
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("impar");
+            //    }
+            //}
 
 
         }
