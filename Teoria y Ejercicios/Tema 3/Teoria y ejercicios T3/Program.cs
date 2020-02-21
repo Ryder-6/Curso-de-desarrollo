@@ -384,18 +384,61 @@ namespace Teoria_y_ejercicios_T3
 
             ///////////////Ejercicio 5//////////////
             //mostrar los parees y los impares
-            int[] numeros = new int[] { 3, 2, 1, 4 };
-            for (int i = 0; i < numeros.Length; i++)
+            //int[] numeros = new int[] { 3, 2, 1, 4 };
+            //for (int i = 0; i < numeros.Length; i++)
+            //{
+            //    if (numeros[i] % 2 == 0)
+            //    {
+            //        Console.WriteLine("Par " + numeros[i]);
+
+            //    }
+            //    if (numeros[i] % 2 != 0)
+            //    {
+            //        Console.WriteLine("impar " + numeros[i]);
+            //    }
+            //}
+
+
+
+            //////////////Ejercicio 6///////////////
+            //Piramide de(numeros)
+            Console.Write("Cauntas veces quieres repetir el codigo?");
+            int num = 1;
+            int repe = int.Parse(Console.ReadLine());
+            String[] arr = new string[repe];
+            for (int i = 0; i < repe; i++)
             {
-                if (numeros[i] % 2 == 0)
+                for (int j = 0; j < i; j++)
+                { 
+                    Console.Write(i);
+                 
+                }         
+                Console.WriteLine("");
+
+            }
+            Console.WriteLine("");
+            for (int i = 0; i < repe; i++)
+            {
+                for (int j = 0; j < i; j++)
                 {
-                    Console.WriteLine("Par " + numeros[i]);
+                    Console.Write(num + " ");
+                    num++;
 
                 }
-                if (numeros[i] % 2 != 0)
+                Console.WriteLine("");
+            }
+            
+            Console.WriteLine("");
+            for (int i = 0; i < repe; i++)
+            {
+            num = 1;
+                    
+                for (int j = 0; j < i; j++)
                 {
-                    Console.WriteLine("impar " + numeros[i]);
+                    Console.Write(num);
+                    num++;
                 }
+                Console.WriteLine("");
             }
 
 
