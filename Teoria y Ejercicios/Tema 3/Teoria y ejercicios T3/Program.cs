@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Teoria_y_ejercicios_T3
 {
@@ -27,7 +28,7 @@ namespace Teoria_y_ejercicios_T3
             //{
             //    Console.WriteLine("vamos por ella repeticion numero: " + i + " de " + x);
             //} while (i != x++);
-
+            
 
             //Contador con Bucle FOR
             //Console.Write("¿Cuantas veces repetimos?: ");
@@ -468,8 +469,45 @@ namespace Teoria_y_ejercicios_T3
             }
 
 
+            ////////////////////LISTAS///////////////
+            /*Teoria:
+                List<TIPO> nombre = new List <TIPO>();             
+             */
+            //List<int> ejint = new List<int>();
+            //List<float> ejfloat = new List<float>();
+            //List<double> ejdouble = new List<double>();
+            //List<char> ejchar = new List<char>();
+            //List<string> ejstring = new List<string>();
+            //List<bool> ejbool = new List<bool>();
+            //ejint.Add(10);
+            //ejint.Add(100);
+            //ejint.Add(1);
+            //ejint.Add(133);
+            //ejint.Remove(100); //elimina los datos que sean 100 (dentro de la casilla)
+            //ejint.RemoveAt(0); //elimina ese indice
+            //ejint[1] = -40;    //cambias el valor dentro de un indice            
+            //foreach (int number  in ejint)
+            //{
+            //    Console.WriteLine(number);
+            //}
 
+            List<int> ejemplo = new List<int>();
+            ejemplo.Add(1);
+            ejemplo.Add(2);
+            ejemplo.Add(3);
+            ejemplo.Add(4);
+            foreach (int number in ejemplo)
+            {
+                if (number % 2 == 0)
+                {
+                    Console.WriteLine("par");
 
+                }
+                else
+                {
+                    Console.WriteLine("impar");
+                }
+            }
 
 
         }
