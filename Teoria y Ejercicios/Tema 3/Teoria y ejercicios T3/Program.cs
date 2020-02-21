@@ -252,7 +252,7 @@ namespace Teoria_y_ejercicios_T3
 
             //////////////Ejercicio 2///////////////
             //Bucle anidado para ordenar de mayor a menor 
-            /* Teoria:
+            {     /* Teoria:
              i= 0  
              j = i + 1 ( J siempre sera mayor que 1)
               
@@ -260,50 +260,50 @@ namespace Teoria_y_ejercicios_T3
              j < n;
              */
 
-            //int[] numeros = new int[] { 3, 2, 1 };
-            //for (int i = 0; i < numeros.Length; i++) /**/
-            //{
-            //    for (int j = i; j < numeros.Length; j++)/*El segundo bucle se reinicia cada vez que termina
-            //            e inicia el bucle principal de nuevo*/
-            //    {
-            //        if (numeros[j] < numeros[i])
-            //        { /* i es el ancla y j recorre todas las casillas, moviendolas una a la izquierda
-            //            hasta que ninguno de las casillas de la dereca (a partir de la primera) es menor
-            //            a la primera casilla
+                //int[] numeros = new int[] { 3, 2, 1 };
+                //for (int i = 0; i < numeros.Length; i++) /**/
+                //{
+                //    for (int j = i; j < numeros.Length; j++)/*El segundo bucle se reinicia cada vez que termina
+                //            e inicia el bucle principal de nuevo*/
+                //    {
+                //        if (numeros[j] < numeros[i])
+                //        { /* i es el ancla y j recorre todas las casillas, moviendolas una a la izquierda
+                //            hasta que ninguno de las casillas de la dereca (a partir de la primera) es menor
+                //            a la primera casilla
 
-            //             */
-            //            int aux = numeros[i];
-            //            numeros[i] = numeros[j];
-            //            numeros[j] = aux;
-            //        }
+                //             */
+                //            int aux = numeros[i];
+                //            numeros[i] = numeros[j];
+                //            numeros[j] = aux;
+                //        }
 
-            //            /* cuando el mas pequeño es el de la izquierda (i) se suma uno, pasandose a la siguiente casilla
-            //             * repitiendo el proceso hasta que todos estan ordenados*/
-            //    }
-            //    Console.WriteLine( "Resultado: " + numeros[i]);
-            //}
-
+                //            /* cuando el mas pequeño es el de la izquierda (i) se suma uno, pasandose a la siguiente casilla
+                //             * repitiendo el proceso hasta que todos estan ordenados*/
+                //    }
+                //    Console.WriteLine( "Resultado: " + numeros[i]);
+                //}
+            }
 
 
 
             //////////////Ejercicio 3///////////////
             //Piramide de  (*)
-            //Console.Write("Cauntas veces quieres repetir el codigo?");
-            //int repe = int.Parse(Console.ReadLine());
-            //String[] arr = new string[repe];
-            //for (int i = 0; i < repe; i++) 
-            //{
-            //    for (int j = 0; j < i; j++)
-            //    {
-            //        Console.Write("* ");
-            //    }
-            //    Console.WriteLine("");; 
-            //}
-
+            {   //Console.Write("Cauntas veces quieres repetir el codigo?");
+               //int repe = int.Parse(Console.ReadLine());
+               //String[] arr = new string[repe];
+               //for (int i = 0; i < repe; i++) 
+               //{
+               //    for (int j = 0; j < i; j++)
+               //    {
+               //        Console.Write("* ");
+               //    }
+               //    Console.WriteLine("");; 
+               //}
+            }
 
             //////////////Ejercicio 3///////////////
             //comprueba si hay alguno repetido
-            //Console.Write("numero de numeros?");
+            {   //Console.Write("numero de numeros?");
             //int n = int.Parse(Console.ReadLine());
             //int[] numeros = new int[n];
             //for (int i = 0; i != n; i++) //Bucle para introducir los datos dentro del ARRAY
@@ -345,59 +345,61 @@ namespace Teoria_y_ejercicios_T3
             ////        }
             ////    }
             ////}
+        }
+
 
             ///////////////Ejercicio 4//////////////
             //Que muestre el numero mayor y menor
-            //int[] numeros = new int[] { 3, 2, 1 };
-            //for (int i = 0; i < numeros.Length; i++) 
-            //{
-            //    for (int j = i; j < numeros.Length; j++)
-            //    {
-            //        if (numeros[j] < numeros[i])
-            //        { 
-            //            int aux = numeros[i];
-            //            numeros[i] = numeros[j];
-            //            numeros[j] = aux;
-            //        }
-            //    }
-            //}
-            //Console.WriteLine("Resultado: " + numeros[0] + " y " + numeros[2]);  
+            {//int[] numeros = new int[] { 3, 2, 1 };
+             //for (int i = 0; i < numeros.Length; i++) 
+             //{
+             //    for (int j = i; j < numeros.Length; j++)
+             //    {
+             //        if (numeros[j] < numeros[i])
+             //        { 
+             //            int aux = numeros[i];
+             //            numeros[i] = numeros[j];
+             //            numeros[j] = aux;
+             //        }
+             //    }
+             //}
+             //Console.WriteLine("Resultado: " + numeros[0] + " y " + numeros[2]);  
 
-            ////PROFESOR
-            //int[] numeros = new int[] { 3, 2, 1 };
-            //int max = int.MaxValue;
-            //int min = int.MinValue;
-            //for (int i = 0; i < numeros.Length; i++)
-            //{
-            //    if (numeros[i] > max)
-            //    {
-            //        max = numeros[i];
-            //    }
-            //    if (numeros[i] < min)
-            //    {
-            //        min = numeros[i];
-            //    }
+                ////PROFESOR
+                //int[] numeros = new int[] { 3, 2, 1 };
+                //int max = int.MaxValue;
+                //int min = int.MinValue;
+                //for (int i = 0; i < numeros.Length; i++)
+                //{
+                //    if (numeros[i] > max)
+                //    {
+                //        max = numeros[i];
+                //    }
+                //    if (numeros[i] < min)
+                //    {
+                //        min = numeros[i];
+                //    }
 
-            //}
-            //Console.WriteLine("Resultado: " + min + " y " + max);
-
+                //}
+                //Console.WriteLine("Resultado: " + min + " y " + max);
+            }
 
             ///////////////Ejercicio 5//////////////
             //mostrar los parees y los impares
-            //int[] numeros = new int[] { 3, 2, 1, 4 };
-            //for (int i = 0; i < numeros.Length; i++)
-            //{
-            //    if (numeros[i] % 2 == 0)
-            //    {
-            //        Console.WriteLine("Par " + numeros[i]);
+            {            //int[] numeros = new int[] { 3, 2, 1, 4 };
+                         //for (int i = 0; i < numeros.Length; i++)
+                         //{
+                         //    if (numeros[i] % 2 == 0)
+                         //    {
+                         //        Console.WriteLine("Par " + numeros[i]);
 
-            //    }
-            //    if (numeros[i] % 2 != 0)
-            //    {
-            //        Console.WriteLine("impar " + numeros[i]);
-            //    }
-            //}
-
+                //    }
+                //    if (numeros[i] % 2 != 0)
+                //    {
+                //        Console.WriteLine("impar " + numeros[i]);
+                //    }
+                //}
+            }
 
 
             //////////////Ejercicio 6///////////////
