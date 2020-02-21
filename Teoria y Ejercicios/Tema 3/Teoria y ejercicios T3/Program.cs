@@ -448,23 +448,24 @@ namespace Teoria_y_ejercicios_T3
 
             //////////////Ejercicio 6///////////////
             //
-            Console.WriteLine("Numero de filas y columnas que quieres?");
-            int tam = int.Parse(Console.ReadLine());
-
-            int[,] matriz = new int[tam,tam];
-            for (int i = 0; i < matriz.GetLength(0); i++)
             {
-                for (int j = 0; j < matriz.GetLength(1); j++)
-                {
-                    if (i==j)
-                    {
-                        matriz[i, j] = 1;
-                    }
-                Console.Write(matriz[i,j]+" ");
-                }
-                Console.WriteLine("");
-            }
+                //Console.WriteLine("Numero de filas y columnas que quieres?");
+                //int tam = int.Parse(Console.ReadLine());
 
+                //int[,] matriz = new int[tam, tam];
+                //for (int i = 0; i < matriz.GetLength(0); i++)
+                //{
+                //    for (int j = 0; j < matriz.GetLength(1); j++)
+                //    {
+                //        if (i == j)
+                //        {
+                //            matriz[i, j] = 1;
+                //        }
+                //        Console.Write(matriz[i, j] + " ");
+                //    }
+                //    Console.WriteLine("");
+                //}
+            }
 
 
 
