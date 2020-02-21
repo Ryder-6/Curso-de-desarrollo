@@ -289,63 +289,63 @@ namespace Teoria_y_ejercicios_T3
             //////////////Ejercicio 3///////////////
             //Piramide de  (*)
             {   //Console.Write("Cauntas veces quieres repetir el codigo?");
-               //int repe = int.Parse(Console.ReadLine());
-               //String[] arr = new string[repe];
-               //for (int i = 0; i < repe; i++) 
-               //{
-               //    for (int j = 0; j < i; j++)
-               //    {
-               //        Console.Write("* ");
-               //    }
-               //    Console.WriteLine("");; 
-               //}
+                //int repe = int.Parse(Console.ReadLine());
+                //String[] arr = new string[repe];
+                //for (int i = 0; i < repe; i++) 
+                //{
+                //    for (int j = 0; j < i; j++)
+                //    {
+                //        Console.Write("* ");
+                //    }
+                //    Console.WriteLine("");; 
+                //}
             }
 
             //////////////Ejercicio 3///////////////
             //comprueba si hay alguno repetido
             {   //Console.Write("numero de numeros?");
-            //int n = int.Parse(Console.ReadLine());
-            //int[] numeros = new int[n];
-            //for (int i = 0; i != n; i++) //Bucle para introducir los datos dentro del ARRAY
-            //{
-            //    int x = int.Parse(Console.ReadLine()); 
-            //    numeros[i] = x;
-            //}
-            //for (int i = 0; i < numeros.Length; i++) /**/
-            //{
-            //    for (int j = i+1; j < numeros.Length; j++)
-            //    {
-            //        if (numeros[j] == numeros[i])
-            //        {
-            //            Console.WriteLine("Hay un numero duplicado: " + numeros[i]);
-            //        }
-            //    }
-            //}
+                //int n = int.Parse(Console.ReadLine());
+                //int[] numeros = new int[n];
+                //for (int i = 0; i != n; i++) //Bucle para introducir los datos dentro del ARRAY
+                //{
+                //    int x = int.Parse(Console.ReadLine()); 
+                //    numeros[i] = x;
+                //}
+                //for (int i = 0; i < numeros.Length; i++) /**/
+                //{
+                //    for (int j = i+1; j < numeros.Length; j++)
+                //    {
+                //        if (numeros[j] == numeros[i])
+                //        {
+                //            Console.WriteLine("Hay un numero duplicado: " + numeros[i]);
+                //        }
+                //    }
+                //}
 
 
-            //PROFESOR
-            ////Console.Write("numero de numeros?");
-            ////int n = int.Parse(Console.ReadLine());
-            ////int[] numeros = new int[n];
-            ////bool repe = false;
-            ////for (int i = 0; i < numeros.Length && !repe; i++) /**/
-            ////{
-            ////    for (int j = i + 1; j < numeros.Length && !repe; j++)
-            ////    {
-            ////        for (int t = 0; t != n ; t++) //Bucle para introducir los datos dentro del ARRAY
-            ////        {
-            ////            int x = int.Parse(Console.ReadLine());
-            ////            numeros[t] = x;
+                //PROFESOR
+                ////Console.Write("numero de numeros?");
+                ////int n = int.Parse(Console.ReadLine());
+                ////int[] numeros = new int[n];
+                ////bool repe = false;
+                ////for (int i = 0; i < numeros.Length && !repe; i++) /**/
+                ////{
+                ////    for (int j = i + 1; j < numeros.Length && !repe; j++)
+                ////    {
+                ////        for (int t = 0; t != n ; t++) //Bucle para introducir los datos dentro del ARRAY
+                ////        {
+                ////            int x = int.Parse(Console.ReadLine());
+                ////            numeros[t] = x;
 
-            ////            if (numeros[j] == numeros[i] )
-            ////            {
-            ////                Console.WriteLine("Hay un numero duplicado: " + numeros[i]);
-            ////                repe = true;
-            ////            }
-            ////        }
-            ////    }
-            ////}
-        }
+                ////            if (numeros[j] == numeros[i] )
+                ////            {
+                ////                Console.WriteLine("Hay un numero duplicado: " + numeros[i]);
+                ////                repe = true;
+                ////            }
+                ////        }
+                ////    }
+                ////}
+            }
 
 
             ///////////////Ejercicio 4//////////////
@@ -404,48 +404,66 @@ namespace Teoria_y_ejercicios_T3
 
             //////////////Ejercicio 6///////////////
             //Piramide de(numeros)
-            Console.Write("Cauntas veces quieres repetir el codigo?");
-            int num = 1;
-            int repe = int.Parse(Console.ReadLine());
-            String[] arr = new string[repe];
-            for (int i = 0; i < repe; i++)
-            {
-                for (int j = 0; j < i; j++)
-                { 
-                    Console.Write(i);
-                 
-                }         
-                Console.WriteLine("");
+            {    //Console.Write("Cauntas veces quieres repetir el codigo?");
+                 //int num = 1;
+                 //int repe = int.Parse(Console.ReadLine());
+                 //String[] arr = new string[repe];
+                 //for (int i = 0; i < repe; i++)
+                 //{
+                 //    for (int j = 0; j < i; j++)
+                 //    { 
+                 //        Console.Write(i);
 
+                //    }         
+                //    Console.WriteLine("");
+
+                //}
+                //Console.WriteLine("");
+                //for (int i = 0; i < repe; i++)
+                //{
+                //    for (int j = 0; j < i; j++)
+                //    {
+                //        Console.Write(num + " ");
+                //        num++;
+
+                //    }
+                //    Console.WriteLine("");
+                //}
+
+                //Console.WriteLine("");
+                //for (int i = 0; i < repe; i++)
+                //{
+                //num = 1;
+
+                //    for (int j = 0; j < i; j++)
+                //    {
+                //        Console.Write(num);
+                //        num++;
+                //    }
+                //    Console.WriteLine("");
+                //}
             }
-            Console.WriteLine("");
-            for (int i = 0; i < repe; i++)
-            {
-                for (int j = 0; j < i; j++)
-                {
-                    Console.Write(num + " ");
-                    num++;
 
+
+
+            //////////////Ejercicio 6///////////////
+            //
+            Console.WriteLine("Numero de filas y columnas que quieres?");
+            int tam = int.Parse(Console.ReadLine());
+
+            int[,] matriz = new int[tam,tam];
+            for (int i = 0; i < matriz.GetLength(0); i++)
+            {
+                for (int j = 0; j < matriz.GetLength(1); j++)
+                {
+                    if (i==j)
+                    {
+                        matriz[i, j] = 1;
+                    }
+                Console.Write(matriz[i,j]+" ");
                 }
                 Console.WriteLine("");
             }
-            
-            Console.WriteLine("");
-            for (int i = 0; i < repe; i++)
-            {
-            num = 1;
-                    
-                for (int j = 0; j < i; j++)
-                {
-                    Console.Write(num);
-                    num++;
-                }
-                Console.WriteLine("");
-            }
-
-
-
-
 
 
 
@@ -455,4 +473,4 @@ namespace Teoria_y_ejercicios_T3
 
         }
     }
-}
+}   
